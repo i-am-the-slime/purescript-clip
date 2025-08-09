@@ -1,0 +1,16 @@
+package:
+  name: clip
+  dependencies:
+    - effect
+    - prelude
+  build:
+    strict: true
+    pedantic_packages: true
+
+workspace:
+  package_set:
+    # Use the latest package set
+    registry: 49.0.0
+  backend:
+    cmd: echo "This package uses purescript-native Go backend"
+    dependencies: []
